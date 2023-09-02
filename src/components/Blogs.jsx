@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
 import Spinner from './Spinner';
 
@@ -23,7 +23,7 @@ const Blogs = () => {
                 font-bold'>{post.category}</span>
               </p>
 
-              <p className='text-sm mt-[4px]'>Posted on 
+              <p className='text-sm mt-[4px]'>Posted on
                 <span> {post.date}</span>
               </p>
 
